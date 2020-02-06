@@ -5,12 +5,15 @@ namespace GradeISMCon
     class Program
     {
         static void Main(string[] args)
-        {
+        {   //Init the variables
             int ISMGrade;
             string LetterGrade;
+            //Asking user for input
             Console.WriteLine("Welcome to Grader!");
             Console.WriteLine("Please enter the grade percentage you think you will get in ISM 4300. No % sign");
+            //Assigning the input to variables
             ISMGrade = int.Parse(Console.ReadLine());
+            //Using conditional to assing letter grade to grade percentage. 
             if (ISMGrade >= 98)
             {
                 LetterGrade = "A+";
@@ -63,7 +66,7 @@ namespace GradeISMCon
             {
                 LetterGrade = "F";
             }
-
+            //Finally writing the letter grade that they will get based on the percentage the user input
             Console.WriteLine("The letter grade of that is " + LetterGrade.ToString());
         }
     }
