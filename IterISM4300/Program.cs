@@ -15,7 +15,6 @@ namespace IterISM4300
             if (userInt % 2 == 0)
             {
                 iterInt = userInt + 1;
-                
                 for (int i = 0; i < iterInt; i++)
                 {
                     
