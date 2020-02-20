@@ -5,7 +5,7 @@ namespace RPS_workshop
 {
     class Program
     {
-        static void Main(string[] args)
+         static void Main(string[] args)
         {
             char gameStart;
             bool loop;
