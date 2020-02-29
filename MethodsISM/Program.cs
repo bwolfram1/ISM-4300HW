@@ -23,22 +23,22 @@ namespace MethodsISM
                 if (type == 1)
                 {
                     int result = x + y;
-                    return ("The sum of " + x + " and " + y + "is " + result);
+                    return ("The sum of " + x + " and " + y + " is " + result);
                 }
                 else if (type == 2)
                 {
                     int result = x - y;
-                    return ("The difference between " + x + " and " + y + "is " + result);
+                    return ("The difference between " + x + " and " + y + " is " + result);
                 }
                 else if (type == 3)
                 {
                     int result = x / y;
-                    return ("When you divide " + x + " and " + y + "the result is " + result);
+                    return ("When you divide " + x + " and " + y + " the result is " + result);
                 }
                 else if (type == 4)
                 {
                     int result = x * y;
-                    return ("When you multiply " + x + " and " + y + "the result is " + result);
+                    return ("When you multiply " + x + " and " + y + " the result is " + result);
                 }
                 else
                 {
