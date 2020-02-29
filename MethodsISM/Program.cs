@@ -47,7 +47,7 @@ namespace MethodsISM
             }
             catch
             {
-                return ("You tried to divide by zero. More information: ");
+                return ("You tried to divide by zero.");
             }
 
         }
