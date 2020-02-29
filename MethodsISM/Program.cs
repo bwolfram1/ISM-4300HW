@@ -7,11 +7,11 @@ namespace MethodsISM
         static void Main(string[] args)
         {
             Console.WriteLine("Brandon M. Wolfram");
-            Console.WriteLine("Please enter the first number.");
+            Console.WriteLine("Please enter the first number. (>0)");
             int num1 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Please enter the second number.");
+            Console.WriteLine("Please enter the second number.(>0)");
             int num2 = int.Parse(Console.ReadLine());
-            Console.WriteLine("Please enter the type.");
+            Console.WriteLine("Please enter the type.[1 to add, 2 to subtract, 3 to divide, and 4 to multipy]");
             int oper = int.Parse(Console.ReadLine());
 
             Console.WriteLine(Einstein(num1, num2, oper));
