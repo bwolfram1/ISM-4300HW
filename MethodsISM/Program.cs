@@ -45,9 +45,9 @@ namespace MethodsISM
                     return ("You entered an unknown operation");
                 }
             }
-            catch (DivideByZeroException e)
+            catch
             {
-                return ("You tried to divide by zero. More information: " + e);
+                return ("You tried to divide by zero. More information: ");
             }
 
         }
